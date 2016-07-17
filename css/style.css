@@ -1,0 +1,273 @@
+
+*{margin: 0; padding: 0;font-family: Arial, fontAwesome, sans-serif;}
+body{
+	background-color: white;
+}
+.title{
+	text-align: center;
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #222;
+	display: block;
+	margin: 2em 0 1em;
+	font-weight: normal;
+}
+.line{
+	width: 600px;
+	margin: 0 auto;
+	height: 1px;
+	background: #ccc;
+	margin-bottom: 40px;
+}
+.titlewhite{
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #fff;
+	display: block;
+	margin: 2em 0 1em;
+	font-weight: normal;
+}
+.linewhite{
+	width: 600px;
+	margin: 0 auto;
+	height: 1px;
+	background: #eee;
+	margin-bottom: 40px;
+}
+.firstColor{
+	background-color: #222222;
+}
+.clearFix{
+	clear: both;
+}
+.left{float: left;}
+#main{
+	width: 100%;
+	height: 100%;
+}
+.fullWidth{
+	width: 100%;
+}
+ul.topMenu li{
+	float: left;
+	list-style: none;
+
+}
+ul.topMenu li a{
+	padding: 15px;
+	color: #aaa;
+	font-size: 16px;
+	display: inline-block;
+}
+ul.topMenu li a:hover{
+	transition: 2s ease;
+	background: #191919;
+	text-decoration: none;
+
+}
+
+/* FullImage */
+.fullImage{
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 600px;
+	text-align: center;
+	width: 100%;
+	background: url(../img/header_bg.jpg) no-repeat;
+	background-size: cover;
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	background: #eee;
+	border-radius: 100%;
+	text-align: center;
+	margin: 100px auto 0;
+}
+.fullImage h3{
+	font-size: 40px;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	line-height: 2;
+	letter-spacing: 5px;
+}
+.section2{
+	text-align: center;
+	background-color: #f5f5f5;
+	height: auto;
+	padding: 2em 0;
+}
+.section2 h3{
+	margin: 1em 0;
+}
+.section2 i{
+	font-size: 48px;
+}
+.section2 p{
+	padding: 0 2em;
+}
+
+/* SECTION3 */
+.section3{
+	padding-bottom: 2em;
+}
+.section3 .col-md-6{
+	padding: 0 3em;
+}
+
+/* SECTION4 */
+.section4{
+	background: url(../img/bg/divider1.jpg) no-repeat;
+	background-size: cover;
+	height: 350px;
+}
+.width{
+	width: 800px;
+	margin: 0 auto;
+	height: auto;
+	font-size: 14px;
+	line-height: 2;
+	color: #888;
+	font-weight: normal;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.width img{
+	width: 100%;
+}
+.widthwhite{
+	width: 800px;
+	margin: 0 auto;
+	height: auto;
+	font-size: 20px;
+	color: #fff;
+	font-weight: normal;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+/* SECTION6 */
+.section6{
+	background: url(../img/bg/divider2.jpg) no-repeat center center;
+	background-size: cover;
+	height: 350px;
+}
+
+.section7{
+	margin: 0 auto;
+	background-color: #fff;
+	height: 400px;
+	text-align: center;
+	margin-bottom: 10%;
+}
+.section7 h3{
+	font-size: 16px;
+	font-weight: bold;
+}
+.circle img{
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+}
+.socials{
+	margin: -10px 0 20px;
+}
+.info{
+	color: #777;
+	line-height: 1.8;
+}
+.section7 a i{
+   font-size: 20px;
+   margin:10px 2px;
+}
+
+.section8{
+	margin: 0 auto;
+	background-color: #F5F5F5;
+	height: 415px;
+	text-align: center;
+}
+.section8 .col-md-8 img{
+	padding-top: 5%;
+}
+.section8 .col-md-4 h3{
+   font-size: 36px;
+   margin:10px 2px;
+   margin-top: 15%;
+   font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.section9{
+	margin-bottom: 5%;
+	background: url(../img/bg/divider3.jpg) no-repeat center center;
+	background-size: cover;
+	height: 350px;
+}
+.section10 .col-md-3{
+	margin-left: 60px;
+	margin-right: 2%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+}
+.section10 .col-md-3 img{
+	width: 350px;
+
+}
+
+.section11{
+	margin-bottom: 5%;
+	background: url(../img/bg/divider4.jpg) no-repeat center center;
+	background-size: cover;
+	height: 350px;
+}
+.section12 {
+	margin-bottom: 5%;
+}
+.section12 .circle img{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	margin-left: 30%;
+	margin-top: 10%;
+}
+.section12 h3{
+	font-size: 18px;
+	margin-left: 25%;
+	color: white;
+}
+.section12 .col-md-6 .col-md-4{
+	background-color: #2B2B2B;
+	height: 400px;
+}
+.section12 .col-md-6 .col-md-8{
+	background-color: #F5F5F5;
+	height: 400px;
+}
+.section12 .col-md-6 .col-md-8 a{
+font-size: 18px;
+padding-left: 5px;
+}
+.section13{
+	margin-bottom: 5%;
+	background: url(../img/bg/divider6.jpg) no-repeat center center;
+	background-size: cover;
+	height: 350px;
+}
+.section13 a{
+	margin-left: 47%;
+	font-size: 50px;
+}
+.section14 h3{
+    text-align: center;
+	background-color: white;
+	height: auto;
+	padding: 2em 0;
+	font-size: 20px;
+}
+.section14 p{
+   
+	padding-left: 120px;
+	font-size: 20px;
+}
